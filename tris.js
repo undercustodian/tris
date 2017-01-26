@@ -70,7 +70,6 @@ function printData(numRig, numCol){
 		giocatore=turno;
 		return;
 	}else resultString="Patta"; // finito le mosse
-	giocatore = turno;
 	console.log("risultato: " + resultString);
 
 	// output
